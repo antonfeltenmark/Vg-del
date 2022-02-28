@@ -1,0 +1,83 @@
+@media only screen and ( max-width: 112.5em) { /* 1800px / 16px = 112.5em */
+    /* .font-width{font-size: 150% !important;} */
+    .card-width{max-width: 33%;}
+    /*.font-width-small{min-width: 140%;}*/
+    .ml-auto{ margin-left: var(--distance-1);}
+    html {font-size: 50%;}
+    
+}
+@media only screen and ( max-width: 93.75em) { /*1500px / 16px = 93.75 */
+    .font-width{ font-size: 100%;} 
+    .mr-0{margin-right: var(--distance-4);}
+    .ml-auto{ margin-left: var(--distance-1);}
+
+}
+ 
+ @media only screen and ( max-width: 81.25em) { /* 1300px / 16px = 81.25em */
+    .card-width {max-width: 45% ;}
+    
+    .font-width-small {font-size: 200% !;}
+    .ml-4 {margin-left: var(--distance-0) ;}
+    .margin-top {margin-top: var(--distance-4) ;}
+    
+    
+ 
+}  
+
+@media only screen and ( max-width: 62.5em) { /* 1000px / 16px = 62.5 */
+     
+     .font-width-small{font-size: 120%;}
+     .font-width{font-size: 120%;}
+     .dropdown-content a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content {
+        text-align: left;
+        width: max-content;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .d-sm-none { display: none ; }
+      .d-none {display: flex;}
+      .pl-4{padding-left: var(--distance-0) ;}
+      .card-width {min-width: 99%;}
+      .img-sm-width {max-width: 20rem ;}
+      .ml-auto {margin-left: var(--distance-2);}
+    
+}
+
+@media only screen and ( max-width: 43.75em) { /* 700px / 16px = 43.75 */
+    /*  .card-width{max-width: 45% !important;} */
+    /* .font-width {font-size: % !important;}  */
+    .flex-sm-column { flex-direction: column ;}
+    .p-sm{padding: var(--distance-4) ;}
+    .search-bar-width {min-width: 45rem; }
+    
+
+}
+@media only screen and ( max-width: 34.375em) { /* 550px / 16px = 34.375 */
+    nav { flex-direction:column;}
+    .nav-padding-sm{ padding-bottom: var(--distance-6);}
+    .font-width{font-size: small;}
+    .ml-xxs{margin-left: var(--distance-1);}
+}
+
+@media only screen and ( max-width: 25em) { /* 400px / 16px = 21.875 */
+    nav {min-width: 45rem;}
+    .search-bar-width{ min-width: 30rem;}
+    .ml-xxs {margin-left: var(--distance-1);}
+    .img-xs-width{max-width: 50%;}
+    .font-width{font-size:small;}
+
+
+}
+@media only screen and ( max-width: 25em) { /* 400px / 16px = 21.875 */
+    .ml-xxs{margin-left: var(--distance-2);}
+}

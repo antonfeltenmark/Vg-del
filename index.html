@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/80e7cd518f.js" ></script>
+    <link href= "css/dropdownbtn.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!--Navigation-->
+    <header>
+        <!-- Person -->
+        <nav class="d-flex max-width justify-content-between align-items-center  p-3 bg-secondary font-width   ">
+            
+            <div class="dropdown nav-padding-sm ">
+                <button class="dropbtn">John Doe <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Personal</a>
+                  <a href="#">Details</a>
+                  <a href="#">Log out</a>
+                  
+                </div>
+                
+            </div>
+            <!-- Contact -->
+            <div class="d-flex nav-padding-sm  ">
+                <div class="d-flex align-items-center mr-4 px-2">
+                   <i href="#" class="fa-solid fa-phone text-light text-size-xs pr-4"></i>
+                   <span href="#" class="text-light ">555 555 5555</span>
+                </div>
+                <div class="d-flex align-items-center mr-4 ">
+                   <i href="#" class="fa-solid fa-envelope text-light text-size-xs pr-4"></i>
+                   <span href="#" class="text-light">info@mystore.com</span>
+                </div>
+            </div>
+            <!-- Icons -->
+            <div href="#" class="d-flex justify-content-center align-items-center nav-padding-sm  ">
+                <i class="fa-brands fa-facebook-square fa-lg text-light p-1"></i>
+                <i class="fa-brands fa-twitter fa-lg text-light p-1"></i>
+                <i class="fa-brands fa-instagram-square fa-lg text-light p-1"></i>
+                <i class="fa-brands fa-pinterest fa-lg text-light p-1"></i>
+            </div>
+   
+        </nav>
+    </header>
+
+    <section>
+        <!-- Searchbar / personal shopping (container)-->
+        <div class="d-flex flex-row p-4 align-items-center top-column font-width p-top flex-sm-column ml-xxs ">
+            <!--logo container-->
+            <div class=" p-4 ">
+             <img src="images 2/logo/logo.png" class="img-sm-width" alt="store"> 
+             
+           </div>
+           <!--searchbar container-->
+           <div class="d-flex align-items-center flex-grow border-xs border-color-success font-width ml-xxs  ">
+                 
+                    <button class="d-flex btn-success fa-solid fa-magnifying-glass icon-form-control border-transparent  align-items-center p-4 "></button>
+                    <input type="text" placeholder="Search products" class=" border-transparent lh-lg search-bar-width "></input>
+                 
+            </div>
+                    <!--Icons-->
+             <div class="d-flex  align-items-center p-top p-sm">
+                <div class="d-flex flex-column d-none p-4">
+                    <a>
+                        <div class="dropdown">
+                         <button class="dropbtn d-flex d-flex "><i class="fa-solid fa-bars fa-xl text-secondary "></i></button>
+                             <div class="dropdown-content drop-down-width ">
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width mr-2 ">Computers and Accessories</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Tv, Video and Audio</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Smartphones and Tablets</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Photo Cameras</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Video Cameras</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Headphones</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Wearable Electronics</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Printers and Inks</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Video Games</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >Speakers and Home Music</a>
+                                 <a href="#" class="border-color-success border-bottom-xs text-size-xs font-width" >HDD/SSD Data Storage</a>
+                      
+                             </div>
+                    
+                        </div>
+                     </a>
+                 </div>
+                     <!--One icon-->
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none p-4 border-line-right font-width border-color-success position-relative">
+                    <div class="d-flex align-items-center justify-content-center p-4 border-transparent">
+                        <i class="fa-solid fa-heart fa-lg text-dark"></i>
+                    </div>
+                    <span class="text-white position-absolute mt-5 border-small-white text-size-xxs circle bg-okey heart-badge ">14</span>
+                    <div><p class="text-size-xs text-dark">Favs</p></div>
+                </a> 
+                    <!--One icon-->
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none p-4 border-line-right font-width border-color-success position-relative">
+                    <div class="d-flex align-items-center justify-content-center p-4 border-transparent">
+                        <i class="fa-solid fa-cart-shopping fa-lg text-dark"></i>
+                    </div>
+                    <span class="text-white position-absolute mt-5 border-small-white text-size-xxs circle bg-okey icon-badge ">3</span>
+                    <div><p class="text-size-xs text-dark">$243,00</p></div>
+                </a> 
+                     <!--One icon--> 
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none font-width p-4 position-relative">
+                        <div class="d-flex align-items-center justify-content-center  p-4  border-transparent">
+                            <i class="fa-solid fa-credit-card fa-lg text-dark"></i>
+                        </div>
+                        <span class="text-white position-absolute mt-5 border-small-white text-size-xxs circle bg-okey icon-badge ">0</span>
+                        <div><p class="text-size-xs text-dark">$0</p></div>
+                </a> 
+                
+    
+               
+             </div>
+             
+        </div>
+    </section>
+   
+        
+   
+    <section>
+        <!--Products container-->
+        <div class="d-flex justify-content-center pr-4 font-width">
+            
+            <div class="d-flex flex-column menu-width border-xs border-color-success d-sm-none">
+                
+                <!-- Product catogories-->
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-hard-drive text-info p-4"></i>
+                    <span>Computers and Accessories</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-tv text-info p-4"></i>
+                    <span>Tv, Video & Audio</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-mobile-screen-button text-info p-4"></i>
+                    <span>Smartphones & Tablets</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-camera-retro text-info p-4"></i>
+                    <span>Photo Cameras</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-video text-info p-4"></i>
+                    <span>Video Cameras</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs">
+                    <i class="fa-solid fa-headphones text-info p-4"></i>
+                    <span>Headphones</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-clock text-info p-4"></i>
+                    <span>Wearable Electronics</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-images text-info p-4"></i>
+                    <span>Printers & Ink</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-crosshairs text-info p-4"></i>
+                    <span>Video Games</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-volume-low text-info p-4"></i>
+                    <span>Speakers & Home Music</span>
+                </div>
+                <div class="d-flex align-items-center p-3 border-color-success border-bottom-xs ">
+                    <i class="fa-solid fa-server text-info p-4"></i>
+                    <span>HDD/SSD Data Storage</span>
+                </div>
+              
+        </div> 
+                <!--Frontpage products-->
+                <div>
+                    <div class="d-flex flex-wrap align-items-center pl-4 mx-auto ">
+                         <!--One product-->
+                         <div class="d-flex flex-xs-column overflow-hidden border-color-success  border-xs ml-auto mb-auto card-width ml-xxs font-width-small">
+                            <img src="images 2/products/08.jpg" class="img-lg-width img-xs-width "alt="laptop">
+                            <div class="p-2 flex-column d-flex font-width card-font-width font-width-small">
+                                <div class="d-flex flex-row justify-content-between">
+                                     <h2 class="mb-1">Surface Book 2 14 in.</h2>
+                                     <div class="fa-regular fa-heart fa-lg pt-4"></div>
+                                </div>
+                              <div><i class=" mb-8"></i> Computer & Accessories </div>
+                              <div><i class="mr-4 mb-10">$2100</i> </div>
+                              <div class="mb-10 "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
+                              <div class="d-flex flex-row justify-content-between p-4">
+                              <div><i class="fa-solid fa-cart-plus"></i></div>
+                              <div>3<i class="fa-regular fa-star"></i></div>
+                             
+                              
+                            
+                              </div>
+                            
+                          </div>
+                    
+                         </div>
+                         <!--One product-->
+                         <div class="d-flex flex-xs-column overflow-hidden border-color-success  border-xs ml-auto mb-auto card-width ml-xxs font-width-small">
+                            <img src="images 2/products/04.jpg" class="img-lg-width img-xs-width "alt="laptop">
+                            <div class="p-2 flex-column d-flex font-width card-font-width font-width-small">
+                                <div class="d-flex flex-row justify-content-between ">
+                                     <h2 class="mb-1">Chromecast</h2>
+                                     <div class="fa-regular fa-heart fa-lg pt-4"></div>
+                                </div>
+                              <div><i class=" mb-8"></i> Computer & Accessories </div>
+                              <div><i class="mr-4 mb-10">$250</i> </div>
+                              <div class="mb-10 "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
+                              <div class="d-flex flex-row justify-content-between p-4">
+                              <div><i class="fa-solid fa-cart-plus"></i></div>
+                              <div>3<i class="fa-regular fa-star"></i></div>
+                              </div>
+                            
+                          </div>
+                          <div class="d-flex flex-column justify-content-center align-items-center bg-okey  position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+                           <div class="text-white ">10% Off</div>
+                          </div> 
+                         </div>
+                         <!--One product-->
+                         <div class="d-flex flex-xs-column overflow-hidden border-color-success border-xs ml-auto mb-auto card-width ml-xxs font-width-small">
+                            <img src="images 2/products/10.jpg" class="img-lg-width img-xs-width "alt="laptop">
+                            <div class="p-2 flex-column d-flex font-width card-font-width font-width-small">
+                                <div class="d-flex flex-row justify-content-between">
+                                     <h2 class="mb-1">Printer 2021</h2>
+                                     <div class="fa-regular fa-heart fa-lg pt-4"></div>
+                                </div>
+                              <div><i class=" mb-8"></i> Computer & Accessories </div>
+                              <div><i class="mr-4 mb-10">$500</i> </div>
+                              <div class="mb-10 "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
+                              <div class="d-flex flex-row justify-content-between p-4">
+                              <div><i class="fa-solid fa-cart-plus"></i></div>
+                              <div>3<i class="fa-regular fa-star"></i></div>
+                              </div>
+                            
+                          </div>
+                          <div class="d-flex flex-column justify-content-center align-items-center bg-okey  position-absolute m-6 p-4 text-bold text-size-xs lh-md border-radius">
+                           <div class="text-white">50% Off</div>
+                          </div> 
+                         </div>
+                         <!--One product-->
+                         <div class="d-flex flex-xs-column overflow-hidden border-color-success border-xs ml-auto mb-auto card-width ml-xxs font-width-small">
+                            <img src="images 2/products/13.jpg" class="img-lg-width img-xs-width "alt="laptop">
+                            <div class="p-2 flex-column d-flex font-width card-font-width font-width-small ">
+                                <div class="d-flex flex-row justify-content-between">
+                                     <h2 class="mb-1">Macbook pro 2 14 in.</h2>
+                                     <div class="fa-regular fa-heart fa-lg pt-4 "></div>
+                                </div>
+                              <div><i class=" mb-8"></i> Tv, video and audio </div>
+                              <div><i class="mr-4 mb-10">$1099</i> </div>
+                              <div class="mb-10 "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
+                              <div class="d-flex flex-row justify-content-between p-4">
+                              <div><i class="fa-solid fa-cart-plus"></i></div>
+                              <div>3<i class="fa-regular fa-star"></i></div>
+                              </div>
+                            
+                          </div>
+                          
+                         </div>
+                         <!--One product-->
+                         <div class="d-flex flex-xs-column overflow-hidden border-color-success  border-xs ml-auto mb-auto card-width ml-xxs font-width-small">
+                            <img src="images 2/products/08.jpg" class="img-lg-width img-xs-width "alt="laptop">
+                            <div class="p-2 flex-column d-flex font-width card-font-width font-width-small">
+                                <div class="d-flex flex-row justify-content-between">
+                                     <h2 class="mb-1">Surface Book 2 14 in.</h2>
+                                     <div class="fa-regular fa-heart fa-lg pt-4"></div>
+                                </div>
+                              <div><i class=" mb-8"></i> Computer & Accessories </div>
+                              <div><i class="mr-4 mb-10">$1099</i> </div>
+                              <div class="mb-10 "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </div>
+                              <div class="d-flex flex-row justify-content-between p-4">
+                              <div><i class="fa-solid fa-cart-plus"></i></div>
+                              <div>3<i class="fa-regular fa-star"></i></div>
+                             
+                              
+                            
+                              </div>
+                            
+                          </div>
+                    
+                         </div>
+                         
+                         
+
+                    </div>
+
+                </div>
+            
+        </div>
+        
+    </section>
+    
+</body>
+</html>
